@@ -1,0 +1,111 @@
+{
+  "name": "pluginn_nuvio",
+  "version": "1.0.0",
+  "scrapers": [
+    {
+      "id": "hianime",
+      "name": "HiAnime",
+      "description": "HiAnime - Anime and Asian content streaming",
+      "version": "2.0.0",
+      "author": "JK",
+      "supportedTypes": ["movie", "tv"],
+      "filename": "src/providers/hianime.js",
+      "enabled": true,
+      "formats": ["mp4", "mkv", "m3u8"],
+      "logo": "https://raw.githubusercontent.com/phisher98/TVVVV/refs/heads/main/Icons/hianime.png",
+      "contentLanguage": ["en", "hi"]
+    },
+    { 
+      "id": "4khdhub",
+      "name": "4khdhub",
+      "description": "4KHDHub direct links",
+      "version": "1.0.0",
+      "author": "Nuvio Team",
+      "supportedTypes": ["movie", "tv"],
+      "filename": "providers/4khdhub.js",
+      "enabled": true,
+      "formats": ["mp4", "m3u8"],
+      "logo": "https://i.postimg.cc/DZpW6Xfb/4khdhub.png",
+      "contentLanguage": ["en"]
+    },
+    {
+      "id": "allwish",
+      "name": "🌟 All-Wish",
+      "description": "All-Wish TV episodes via All-Wish servers",
+      "version": "1.0.1",
+      "author": "Kabir",
+      "supportedTypes": ["movie", "tv"],
+      "filename": "providers/allwish.js",
+      "enabled": true,
+      "limited": true,
+      "formats": ["mp4", "m3u8"],
+      "logo": "https://i.postimg.cc/WpFW45WQ/allwish.png",
+      "contentLanguage": ["en", "ja"]
+    },
+    {
+      "id": "purstream",
+      "name": "Purstream",
+      "description": "Films and series in French (VF) / subtitled French (VOSTFR) / multi-language (MULTI) from purstream.art.",
+      "version": "3.0.0",
+      "author": "wooodyhood",
+      "supportedTypes": ["movie", "tv"],
+      "filename": "providers/purstream.js",
+      "enabled": true,
+      "formats": ["mp4", "m3u8"],
+      "logo": "https://i.postimg.cc/7L5shxmC/purstream.png",
+      "contentLanguage": ["en", "fr"]
+    },
+    {
+      "id": "vidlink",
+      "name": "Vidlink",
+      "description": "Vidlink streaming with encrypted TMDB ID support for movies and TV shows",
+      "version": "1.0.0",
+      "author": "Nuvio Team",
+      "supportedTypes": ["movie", "tv"],
+      "filename": "providers/vidlink.js",
+      "enabled": true,
+      "formats": ["mp4", "m3u8"],
+      "logo": "https://i.postimg.cc/wMHSw2Vb/vidlink.png",
+      "contentLanguage": ["en"]
+    },
+    {
+      "id": "videasy",
+      "name": "Videasy",
+      "description": "Videasy streaming with encrypted TMDB ID support for movies and TV shows",
+      "version": "1.0.0",
+      "author": "Nuvio Team",
+      "supportedTypes": ["movie", "tv"],
+      "filename": "providers/videasy.js",
+      "enabled": true,
+      "formats": ["mp4", "m3u8"],
+      "logo": "https://i.postimg.cc/7LHYMtVV/videasy.png",
+      "contentLanguage": ["en"]
+    },
+    {
+      "id": "onlykdrama",
+      "name": "OnlyKDrama",
+      "description": "Asian Drama",
+      "version": "1.0.0",
+      "author": "Moiz Ahmed + Codex",
+      "supportedTypes": ["movie", "tv"],
+      "filename": "providers/onlykdrama.js",
+      "enabled": true,
+      "formats": ["mp4", "mkv", "m3u8"],
+      "logo": "https://i.postimg.cc/dtX84Gqc/onlykdrama.jpg",
+      "contentLanguage": ["ko"]
+    },
+    {
+      "id": "kisskh",
+      "name": "Kisskh",
+      "description": "Streams Korean dramas and movies from onlykdrama.top",
+      "version": "1.0.0",
+      "author": "Michat88",
+      "supportedTypes": ["movie", "tv"],
+      "filename": "providers/kisskh.js",
+      "enabled": true,
+      "formats": ["mp4", "m3u8"],
+      "logo": "https://i.postimg.cc/2yLnTzPP/kisskh.jpg",
+      "contentLanguage": ["ko", "ch", "ja", "th"]
+    }
+  ]
+}
