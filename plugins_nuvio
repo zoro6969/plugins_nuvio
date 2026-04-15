@@ -1,5 +1,5 @@
 {
-  "name": "pluginn_nuvio",
+  "name": "plugin_nuvio",
   "version": "1.0.0",
   "scrapers": [
     {
